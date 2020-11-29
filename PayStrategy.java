@@ -1,5 +1,5 @@
 
 public interface PayStrategy {
-	boolean pay(int paymentAmount);
+	void pay(int paymentAmount);
     void collectPaymentDetails();
 }

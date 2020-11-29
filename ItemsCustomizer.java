@@ -1,5 +1,5 @@
 
-abstract class ItemsCustomizer extends Item {
+abstract class ItemsCustomizer{
 	Item item;
 	public abstract void addCustomization();
 }
